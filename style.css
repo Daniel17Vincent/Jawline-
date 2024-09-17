@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: whitesmoke;
+  padding: 0.6rem;
+}
+header a, a {
+  text-decoration: none;
+  color: beige;
+}
+header {
+  background: darkslategray;
+  color: #fff;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-bottom: 2px solid #fff;
+  overflow: hidden;
+}
+header div {
+  width: 2px;
+  height: 4rem;
+  background: #fff;
+  position: absolute;
+}
+.title {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background: ;
+  border-radius: 5px;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+img {
+  object-fit: contain;
+  object-position: top;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2/2;
+  border-radius: 5px;
+}
+.title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: darkslategray;
+}
+.title h1 span {
+  color: ;
+}
+article {
+  padding: 0.5rem;
+  background: snow;
+  border-radius: 5px;
+  box-shadow: 1px 1px 21px 5px rgba(0,0,0,0.2);
+}
+.main {
+  background: ;
+  width: 100%;
+  height: ;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 1rem 0rem;
+  margin-top: 4rem;
+}
+h4 {
+  font-weight: lighter;
+  margin: 1rem 0rem;
+}
+p {
+  font-size: 1.1rem;
+  font-weight: light;
+  line-height: 2rem;
+  margin: 2rem 0rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  font-weight: 400;
+}
+p:first-child {
+  margin-top: 1rem;
+}
+a {
+  text-decoration: none;
+  padding: 0.8rem ;
+}
+button {
+  border: none;
+}
+footer button a {
+  padding: 0.8rem 4rem;
+  background: darkslategray;
+  border-radius: 20px;
+  color: #fff;
+  align-items: center;
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+footer 
+{
+  padding: 0.5rem;
+}
+.down {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  background: sandybrown;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  box-shadow: 1px 1px 10px 6px rgba(0,0,0,0.1);
+}
+.down p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0.6rem 0rem;
+}
+.down a {
+  padding: 0.8rem 3rem;
+  background: snow;
+  border-radius: 20px;
+  color: #777;
+  font-weight: bold;
+}
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
